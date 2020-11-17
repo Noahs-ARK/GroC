@@ -49,10 +49,17 @@ python -W ignore  main.py --data penn --dropouti 0.4 --dropouth 0.25 --seed 28 -
  --save tied --cuda --cuda_device 0
 
 ```
-GroC (char, rel, def)
+GroC (char)
 ```bash
 python -W ignore  main.py --data penn --dropouti 0.4 --dropouth 0.25 --seed 28 --batch_size 20 --epoch 1000\
 --save groc_char --char_emb --char_update_ratio 0.3 --cuda --cuda_device 0
+```
+
+GroC (char, rel, def)
+```bash
+python -W ignore  main.py --data penn --dropouti 0.4 --dropouth 0.25 --seed 28 --batch_size 20 \
+--epoch 1000 --save groc_full --char_emb --rel_emb --def_emb --char_update_ratio 0.3 --cuda --cuda_device 0
+
 ```
 
 GroC for adaptation (char, rel, def, deep residual net, bias estimator)
