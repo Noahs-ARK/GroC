@@ -80,5 +80,5 @@ References
 
 Contact
 ------------
-For questions and feedback please contact us at npappas@cs.washington.edu and pmulcaire@cs.washington.edu.
+For questions and requests please email: npappas@cs.washington.edu, pmulcaire@cs.washington.edu.
 
