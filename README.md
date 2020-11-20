@@ -2,7 +2,7 @@
 a Pytorch implementation of GroC, a grounded compositional output model for adaptive language modeling presented at EMNLP 2020 [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.96.pdf">1</a>]. The model has a fully compositional output embedding layer that is optionally further grounded in information from a structured lexicon (WordNet), namely semantically related words and free-text definitions. It can be applied to both conventional language modeling as well as challenging cross-domain settings with an open vocabulary. 
 
 <p align="center">
-<a href="https://arxiv.org/pdf/1905.05513.pdf"><img align="center" src="images/groc.png" alt=" ." width="700"/></a>
+<a href="https://www.aclweb.org/anthology/2020.emnlp-main.96.pdf"><img align="center" src="images/groc.png" alt=" ." width="700"/></a>
 </p>
 
 ```
