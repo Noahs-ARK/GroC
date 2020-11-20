@@ -70,6 +70,8 @@ python -W ignore  main.py --data penn --dropouti 0.4 --dropouth 0.25 --seed 28 -
 
 ```
 
+For those who are interested, we also make our pretrained models and configurations publicly available for our experiments on conventional language modeling and cross-domain language modeling: <a href="https://drive.google.com/drive/folders/1xlR3Q0k8w8r3uLIDTyG85B6qrCSdWqWj?usp=sharing">Pretrained GroC models (Google Drive)</a>.
+
 # Evaluation 
 
 Download the News Crawl data here (http://statmt.org/wmt14/translation-task.html, under “Monolingual language model training data”). Place the downloaded files in a directory called “raw” and run scripts/create-data.sh to recreate our splits.
