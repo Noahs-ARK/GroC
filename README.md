@@ -70,7 +70,7 @@ python -W ignore  main.py --data penn --dropouti 0.4 --dropouth 0.25 --seed 28 -
 
 ```
 
-For those who are interested, we also make our pretrained models and configurations publicly available for our experiments on conventional language modeling and cross-domain language modeling: <a href="https://drive.google.com/drive/folders/1xlR3Q0k8w8r3uLIDTyG85B6qrCSdWqWj?usp=sharing">Pretrained GroC models (Google Drive)</a>.
+For those who are interested, we also make our pretrained models and configurations publicly available for our experiments on conventional language modeling and cross-domain language modeling: <a href="https://drive.google.com/drive/folders/1_cGbMIccZe83fo8Xd5ySo0VlBNdUb9DO?usp=sharing">Pretrained GroC models (Google Drive)</a>.
 
 # Evaluation 
 
